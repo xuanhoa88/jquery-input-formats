@@ -4,8 +4,6 @@ const ua = navigator.userAgent,
     chrome = /chrome/i.test(ua),
     android = /android/i.test(ua);
 
-var caretTimeoutId;
-
 $.mask = {
     //Predefined character definitions
     definitions: {
@@ -114,7 +112,8 @@ $.fn.extend({
                     }),
                 defaultBuffer = buffer.join('');
             var focusText = input.val();
-
+            var caretTimeoutId;
+            
             function tryFireCompleted() {
                 if (!settings.completed) {
                     return;
