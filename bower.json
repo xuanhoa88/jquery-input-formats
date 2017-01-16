@@ -1,0 +1,29 @@
+{
+  "name": "jquery-input-formats",
+  "authors": [
+    "XuaNguyen <xuan.0211@gmail.com>"
+  ],
+  "description": "jQuery Masked Input Plugin.",
+  "main": "./src/jquery.input-formats.js",
+  "moduleType": [
+    "es6"
+  ],
+  "keywords": [
+    "input",
+    "form",
+    "mask",
+    "jquery",
+    "llama"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "spec",
+    "lib"
+  ],
+  "dependencies": {
+    "jquery": ">=1.8.3"
+  }
+}
