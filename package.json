@@ -1,6 +1,6 @@
 {
   "name": "jquery-input-formats",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "XuaNguyen <xuan.0211@gmail.com>",
   "main": "./src/jquery.input-formats.js",
   "description": "jQuery Masked Input Plugin.",
