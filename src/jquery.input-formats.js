@@ -57,8 +57,8 @@ $.fn.extend({
         return this.trigger('unmask');
     },
     mask: function(mask, settings) {
-        var input,
-            defs,
+        const input = $(this[0]);
+        var defs,
             tests,
             partialPosition,
             firstNonMaskPos,
@@ -67,7 +67,6 @@ $.fn.extend({
             oldVal;
 
         if (!mask && this.length > 0) {
-            input = $(this[0]);
             var fn = input.data($.mask.dataName)
             return fn ? fn() : undefined;
         }
