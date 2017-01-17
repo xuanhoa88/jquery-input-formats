@@ -81,7 +81,7 @@ $.fn.extend({
         tests = [];
         if (input.prop('maxlength')) {
         	len = input.prop('maxlength');
-        	console.warning('Length of mask does not match with value of maxlength attribute.');
+        	console.warn('Length of mask does not match with value of maxlength attribute.');
         } else {
         	len = mask.length;
         }
